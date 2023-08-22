@@ -32,11 +32,11 @@ export default function App() {
   const dispatch = useDispatch();
 
   return (
-    <div className='page'>
+    <!-- <div className='page'>
       <h1>Count: {count}</h1>
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
       <button onClick={() => dispatch(incrementByAmount(30))}>Increment by 30</button>
-    </div >
+    </div > -->
   );
 }
